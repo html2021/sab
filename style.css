@@ -42,6 +42,9 @@ button.btn {
     padding: 0;
     font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #e6e6e6;
+    font-weight: bolder;
+    font-size: 25px;
+    
  }
  header {
     padding: 30px 4% 10px;
@@ -51,6 +54,8 @@ button.btn {
     background-color: #fff;
     display: flex;
     align-items: center;
+    opacity: 0.6;
+    position:fixed
  }
  h1 {
     margin: 0; padding: 0;
@@ -74,12 +79,11 @@ button.btn {
  }
  .btn--orange,
 a.btn--orange {
-  color: #fff;
+   color: white;
   background-color: #eb6100;
 }
 .btn--orange:hover,
 a.btn--orange:hover {
-  color: #fff;
   background: #f56500;
 }
 
@@ -87,19 +91,40 @@ a.btn--radius {
    border-radius: 100vh;
 }
  section {
-   height: 50vh;
+   height: 75vh;
    font-size: 25px;
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
    font-weight: bolder;
-   color: #1a1a1a;
+   color: white;
  }
  .hero {
-   background-image: url(member.png);
+   background-image: url(member.jpg);
    text-align: center;
-   padding-top: 5vh;
+   padding-top: 10vh;
+ }
+ .hero1 {
+   background-image: url(link.jpg);
+   text-align: center;
+   padding-top: 10vh;
+ }
+ .hero2 {
+   background-image: url(policy.jpg);
+   text-align: center;
+   padding-top: 10vh;
  }
  .title {
    font-size: 50px;
+ }
+ .newsand {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 50px;
+ }
+ article {
+   width: 45%;
+ }
+ aside {
+   width: 35%;
  }
